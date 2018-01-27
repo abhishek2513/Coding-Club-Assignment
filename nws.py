@@ -6,7 +6,7 @@ dt=raw_input('Enter the date in (DD/MM/YYYY) format to view the headlines: ')
 print('\n')
 print("Following are the headlines for the date %s \n")%dt
 print('\n')
-ul='http://www.rediff.com/issues/'+dt[0:2]+dt[3:5]+dt[8:]+'hl.html'
+ul='http://www.reasdasddiff.com/issues/'+dt[0:2]+dt[3:5]+dt[8:]+'hl.html'
 quote_page = ul
 i=0
 page = urllib2.urlopen(quote_page)
